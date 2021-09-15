@@ -1,6 +1,6 @@
 import DashBoard from 'pages/Dashboard';
 import Home from 'pages/Home';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const Routes = () => {
     return (
@@ -11,7 +11,7 @@ const Routes = () => {
                 </Route>
                 <Route path="/dashboard">
                     <DashBoard />
-            
+
                 </Route>
 
 
@@ -19,6 +19,6 @@ const Routes = () => {
             </Switch>
         </BrowserRouter>
     );
-  }
-  
-  export default Routes;
+}
+
+export default Routes;
